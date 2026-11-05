@@ -7,12 +7,12 @@ INIT = 1500
 REGRESS = 0.25    # al empezar temporada, regresión a la media (25 %)
 
 
-def expected(r_home, r_away):
+def expected(r_home, r_away, home_adv):
     """Probabilidad esperada (victoria=1, empate=0.5) del local."""
-    return 1 / (1 + 10 ** (-(r_home + HOME_ADV - r_away) / 400))
+    return 1 / (1 + 10 ** (-(r_home + home_adv - r_away) / 400))
 
 
-def add_elo(df: pd.DataFrame) -> pd.DataFrame:
+def add_elo(df: pd.DataFrame, k=K, home_adv=HOME_ADV, regress=REGRESS) -> pd.DataFrame:
     df = df.sort_values("Date").reset_index(drop=True).copy()
     ratings = {}
     last_season = None
@@ -20,17 +20,16 @@ def add_elo(df: pd.DataFrame) -> pd.DataFrame:
 
     for row in df.itertuples():
         if row.Season != last_season and last_season is not None:
-            # Nueva temporada: acercar todos los ratings a 1500
-            ratings = {t: INIT + (1 - REGRESS) * (r - INIT) for t, r in ratings.items()}
+            ratings = {t: INIT + (1 - regress) * (r - INIT) for t, r in ratings.items()}
         last_season = row.Season
 
         rh = ratings.get(row.HomeTeam, INIT)
         ra = ratings.get(row.AwayTeam, INIT)
-        elo_h.append(rh)          # rating ANTES del partido
+        elo_h.append(rh)
         elo_a.append(ra)
 
         resultado = {"H": 1.0, "D": 0.5, "A": 0.0}[row.FTR]
-        delta = K * (resultado - expected(rh, ra))
+        delta = k * (resultado - expected(rh, ra, home_adv))
         ratings[row.HomeTeam] = rh + delta
         ratings[row.AwayTeam] = ra - delta
 
