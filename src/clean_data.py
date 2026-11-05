@@ -11,8 +11,6 @@ COLUMNS = [
     "HS", "AS", "HST", "AST", "HF", "AF", "HC", "AC", "HY", "AY", "HR", "AR",
     "PSH", "PSD", "PSA",
     "PSCH", "PSCD", "PSCA",
-    "PPH", "PPD", "PPA",
-    "PPCH", "PPCD", "PPCA",
     "AvgH", "AvgD", "AvgA",
     "AvgCH", "AvgCD", "AvgCA",
     "B365CH", "B365CD", "B365CA",
