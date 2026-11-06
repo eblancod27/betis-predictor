@@ -85,6 +85,23 @@ fuerza de los equipos empeora el Brier, así que no se aplica.
 - Las cuotas de football-data se recogen en momentos concretos de la semana,
   no exactamente al cierre.
 
+## Evaluación en vivo (temporada 2026/27)
+
+Desde el 6/11/2026 el modelo registra sus predicciones **antes** de cada
+partido en `live/predictions_log.csv`. Cada fila incluye la fecha de
+generación y el commit del código; el historial de Git sirve de sello
+temporal. Un partido se registra una sola vez y no se reescribe.
+
+Reglas fijadas de antemano:
+- Los hiperparámetros no se modifican durante la temporada.
+- La comparación con el mercado (media de cuotas de cierre) se hace con las
+  mismas métricas que el test: log-loss, Brier y RPS.
+- Se interpreta el resultado al llegar a unos 100 partidos registrados y al
+  final de la temporada. Antes de eso, con 10 partidos por jornada, la
+  variabilidad es demasiado alta para sacar conclusiones.
+- Los partidos de una jornada que no se registren a tiempo no se añaden
+  después.
+
 ## Cómo reproducirlo
 
 ```bash
