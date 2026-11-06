@@ -50,6 +50,7 @@ score = pts + rng.random((N_SIM, n)) * 0.5
 pos = (-score).argsort(axis=1).argsort(axis=1) + 1
 
 out = pd.DataFrame({
+    "pts_actuales": pts0,
     "pts_esperados": pts.mean(axis=0).round(1),
     "pos_media": pos.mean(axis=0).round(1),
     "P_campeon": (pos == 1).mean(axis=0),
@@ -60,6 +61,11 @@ out = pd.DataFrame({
 out.round(3).to_csv("data/processed/simulacion_2627.csv")
 print("\nProbabilidades (10.000 simulaciones):")
 print(out.round(3).to_string())
+
+dist = pd.DataFrame(
+    np.stack([(pos == k).mean(axis=0) for k in range(1, n + 1)], axis=1),
+    index=teams, columns=range(1, n + 1))
+dist.to_csv("data/processed/distribucion_posiciones_2627.csv")
 
 b = idx["Betis"]
 print("\nBetis: distribución de la posición final")
