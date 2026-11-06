@@ -1,0 +1,272 @@
+Date,HomeTeam,AwayTeam,pendiente
+2026-11-06 20:00:00,Sevilla,Alaves,True
+2026-11-07 13:00:00,Malaga,Santander,True
+2026-11-07 15:15:00,Espanol,La Coruna,True
+2026-11-07 17:30:00,Osasuna,Ath Bilbao,True
+2026-11-07 20:00:00,Valencia,Real Madrid,True
+2026-11-08 13:00:00,Elche,Betis,True
+2026-11-08 15:15:00,Sociedad,Vallecano,True
+2026-11-08 17:30:00,Celta,Levante,True
+2026-11-08 17:30:00,Villarreal,Getafe,True
+2026-11-08 20:00:00,Ath Madrid,Barcelona,True
+2026-11-20 20:00:00,Ath Bilbao,Espanol,True
+2026-11-21 13:00:00,Alaves,La Coruna,True
+2026-11-21 15:15:00,Vallecano,Valencia,True
+2026-11-21 17:30:00,Sevilla,Betis,True
+2026-11-21 20:00:00,Real Madrid,Celta,True
+2026-11-22 13:00:00,Barcelona,Villarreal,True
+2026-11-22 15:15:00,Santander,Sociedad,True
+2026-11-22 17:30:00,Osasuna,Malaga,True
+2026-11-22 20:00:00,Getafe,Ath Madrid,True
+2026-11-23 20:00:00,Levante,Elche,True
+2026-11-29 00:00:00,Sociedad,Sevilla,True
+2026-11-29 00:00:00,Real Madrid,Alaves,True
+2026-11-29 00:00:00,Malaga,Ath Bilbao,True
+2026-11-29 00:00:00,Valencia,Osasuna,True
+2026-11-29 00:00:00,Espanol,Getafe,True
+2026-11-29 00:00:00,Levante,Santander,True
+2026-11-29 00:00:00,La Coruna,Barcelona,True
+2026-11-29 00:00:00,Celta,Villarreal,True
+2026-11-29 00:00:00,Betis,Vallecano,True
+2026-11-29 00:00:00,Elche,Ath Madrid,True
+2026-12-06 00:00:00,Getafe,Valencia,True
+2026-12-06 00:00:00,Alaves,Espanol,True
+2026-12-06 00:00:00,Ath Bilbao,Real Madrid,True
+2026-12-06 00:00:00,Ath Madrid,Betis,True
+2026-12-06 00:00:00,Barcelona,Celta,True
+2026-12-06 00:00:00,Osasuna,Elche,True
+2026-12-06 00:00:00,Santander,La Coruna,True
+2026-12-06 00:00:00,Vallecano,Levante,True
+2026-12-06 00:00:00,Sevilla,Malaga,True
+2026-12-06 00:00:00,Villarreal,Sociedad,True
+2026-12-09 19:00:00,Vallecano,Ath Bilbao,True
+2026-12-13 00:00:00,Sociedad,Getafe,True
+2026-12-13 00:00:00,Real Madrid,Osasuna,True
+2026-12-13 00:00:00,Malaga,Barcelona,True
+2026-12-13 00:00:00,Villarreal,Vallecano,True
+2026-12-13 00:00:00,Levante,Alaves,True
+2026-12-13 00:00:00,Espanol,Celta,True
+2026-12-13 00:00:00,Elche,Sevilla,True
+2026-12-13 00:00:00,La Coruna,Ath Bilbao,True
+2026-12-13 00:00:00,Betis,Santander,True
+2026-12-13 00:00:00,Ath Madrid,Valencia,True
+2026-12-20 00:00:00,Valencia,Espanol,True
+2026-12-20 00:00:00,Sevilla,Santander,True
+2026-12-20 00:00:00,Vallecano,Malaga,True
+2026-12-20 00:00:00,Osasuna,Villarreal,True
+2026-12-20 00:00:00,Getafe,Levante,True
+2026-12-20 00:00:00,Barcelona,Sociedad,True
+2026-12-20 00:00:00,La Coruna,Real Madrid,True
+2026-12-20 00:00:00,Celta,Ath Madrid,True
+2026-12-20 00:00:00,Ath Bilbao,Betis,True
+2026-12-20 00:00:00,Alaves,Elche,True
+2027-01-03 00:00:00,Sociedad,Osasuna,True
+2027-01-03 00:00:00,Real Madrid,Getafe,True
+2027-01-03 00:00:00,Vallecano,Ath Madrid,True
+2027-01-03 00:00:00,Santander,Ath Bilbao,True
+2027-01-03 00:00:00,Villarreal,Sevilla,True
+2027-01-03 00:00:00,Levante,Valencia,True
+2027-01-03 00:00:00,Espanol,Barcelona,True
+2027-01-03 00:00:00,Celta,La Coruna,True
+2027-01-03 00:00:00,Betis,Alaves,True
+2027-01-03 00:00:00,Malaga,Elche,True
+2027-01-10 00:00:00,Real Madrid,Levante,True
+2027-01-10 00:00:00,Osasuna,Barcelona,True
+2027-01-10 00:00:00,Sevilla,Celta,True
+2027-01-10 00:00:00,Espanol,Betis,True
+2027-01-10 00:00:00,Valencia,Malaga,True
+2027-01-10 00:00:00,La Coruna,Vallecano,True
+2027-01-10 00:00:00,Ath Madrid,Santander,True
+2027-01-10 00:00:00,Ath Bilbao,Villarreal,True
+2027-01-10 00:00:00,Alaves,Sociedad,True
+2027-01-10 00:00:00,Elche,Getafe,True
+2027-01-17 00:00:00,Villarreal,Alaves,True
+2027-01-17 00:00:00,Vallecano,Sevilla,True
+2027-01-17 00:00:00,Santander,Osasuna,True
+2027-01-17 00:00:00,Malaga,Real Madrid,True
+2027-01-17 00:00:00,Levante,Espanol,True
+2027-01-17 00:00:00,Getafe,Ath Bilbao,True
+2027-01-17 00:00:00,Barcelona,Elche,True
+2027-01-17 00:00:00,Celta,Valencia,True
+2027-01-17 00:00:00,Betis,La Coruna,True
+2027-01-17 00:00:00,Ath Madrid,Sociedad,True
+2027-01-24 00:00:00,Sociedad,Malaga,True
+2027-01-24 00:00:00,Real Madrid,Betis,True
+2027-01-24 00:00:00,Santander,Celta,True
+2027-01-24 00:00:00,Getafe,Osasuna,True
+2027-01-24 00:00:00,Valencia,Sevilla,True
+2027-01-24 00:00:00,Elche,Vallecano,True
+2027-01-24 00:00:00,La Coruna,Ath Madrid,True
+2027-01-24 00:00:00,Ath Bilbao,Levante,True
+2027-01-24 00:00:00,Alaves,Barcelona,True
+2027-01-24 00:00:00,Espanol,Villarreal,True
+2027-01-31 00:00:00,Sevilla,Ath Bilbao,True
+2027-01-31 00:00:00,Vallecano,Real Madrid,True
+2027-01-31 00:00:00,Osasuna,La Coruna,True
+2027-01-31 00:00:00,Malaga,Alaves,True
+2027-01-31 00:00:00,Villarreal,Santander,True
+2027-01-31 00:00:00,Barcelona,Valencia,True
+2027-01-31 00:00:00,Celta,Getafe,True
+2027-01-31 00:00:00,Betis,Elche,True
+2027-01-31 00:00:00,Ath Madrid,Espanol,True
+2027-01-31 00:00:00,Levante,Sociedad,True
+2027-02-07 00:00:00,Valencia,Santander,True
+2027-02-07 00:00:00,Sociedad,Real Madrid,True
+2027-02-07 00:00:00,Getafe,Villarreal,True
+2027-02-07 00:00:00,Barcelona,Ath Madrid,True
+2027-02-07 00:00:00,Espanol,Vallecano,True
+2027-02-07 00:00:00,Elche,Levante,True
+2027-02-07 00:00:00,Betis,Sevilla,True
+2027-02-07 00:00:00,Ath Bilbao,Osasuna,True
+2027-02-07 00:00:00,Alaves,Celta,True
+2027-02-07 00:00:00,La Coruna,Malaga,True
+2027-02-14 00:00:00,Sociedad,Betis,True
+2027-02-14 00:00:00,Villarreal,Barcelona,True
+2027-02-14 00:00:00,Valencia,Alaves,True
+2027-02-14 00:00:00,Sevilla,Espanol,True
+2027-02-14 00:00:00,Real Madrid,Ath Bilbao,True
+2027-02-14 00:00:00,Santander,Getafe,True
+2027-02-14 00:00:00,Osasuna,Ath Madrid,True
+2027-02-14 00:00:00,Levante,Malaga,True
+2027-02-14 00:00:00,Elche,La Coruna,True
+2027-02-14 00:00:00,Celta,Vallecano,True
+2027-02-21 00:00:00,Villarreal,Valencia,True
+2027-02-21 00:00:00,Sevilla,Real Madrid,True
+2027-02-21 00:00:00,Vallecano,Getafe,True
+2027-02-21 00:00:00,Malaga,Betis,True
+2027-02-21 00:00:00,Barcelona,Levante,True
+2027-02-21 00:00:00,La Coruna,Sociedad,True
+2027-02-21 00:00:00,Ath Madrid,Elche,True
+2027-02-21 00:00:00,Ath Bilbao,Celta,True
+2027-02-21 00:00:00,Alaves,Santander,True
+2027-02-21 00:00:00,Espanol,Osasuna,True
+2027-02-28 00:00:00,Osasuna,Sevilla,True
+2027-02-28 00:00:00,Sociedad,Elche,True
+2027-02-28 00:00:00,Real Madrid,Valencia,True
+2027-02-28 00:00:00,Santander,Vallecano,True
+2027-02-28 00:00:00,Malaga,Ath Madrid,True
+2027-02-28 00:00:00,Ath Bilbao,Barcelona,True
+2027-02-28 00:00:00,Getafe,Alaves,True
+2027-02-28 00:00:00,Celta,Espanol,True
+2027-02-28 00:00:00,Betis,Villarreal,True
+2027-02-28 00:00:00,Levante,La Coruna,True
+2027-03-07 00:00:00,Vallecano,Osasuna,True
+2027-03-07 00:00:00,Villarreal,Real Madrid,True
+2027-03-07 00:00:00,Valencia,Levante,True
+2027-03-07 00:00:00,Sevilla,Sociedad,True
+2027-03-07 00:00:00,Barcelona,Betis,True
+2027-03-07 00:00:00,Alaves,Ath Bilbao,True
+2027-03-07 00:00:00,Elche,Malaga,True
+2027-03-07 00:00:00,La Coruna,Getafe,True
+2027-03-07 00:00:00,Ath Madrid,Celta,True
+2027-03-07 00:00:00,Espanol,Santander,True
+2027-03-14 00:00:00,Real Madrid,Espanol,True
+2027-03-14 00:00:00,Santander,Ath Madrid,True
+2027-03-14 00:00:00,Osasuna,Celta,True
+2027-03-14 00:00:00,Malaga,Vallecano,True
+2027-03-14 00:00:00,Getafe,Sociedad,True
+2027-03-14 00:00:00,Elche,Villarreal,True
+2027-03-14 00:00:00,Betis,Levante,True
+2027-03-14 00:00:00,Ath Bilbao,Valencia,True
+2027-03-14 00:00:00,Alaves,Sevilla,True
+2027-03-14 00:00:00,Barcelona,La Coruna,True
+2027-03-21 00:00:00,Sociedad,Alaves,True
+2027-03-21 00:00:00,Valencia,La Coruna,True
+2027-03-21 00:00:00,Sevilla,Elche,True
+2027-03-21 00:00:00,Villarreal,Malaga,True
+2027-03-21 00:00:00,Vallecano,Barcelona,True
+2027-03-21 00:00:00,Espanol,Ath Bilbao,True
+2027-03-21 00:00:00,Levante,Osasuna,True
+2027-03-21 00:00:00,Celta,Real Madrid,True
+2027-03-21 00:00:00,Ath Madrid,Getafe,True
+2027-03-21 00:00:00,Santander,Betis,True
+2027-04-04 00:00:00,Sociedad,Valencia,True
+2027-04-04 00:00:00,Real Madrid,Ath Madrid,True
+2027-04-04 00:00:00,Malaga,Osasuna,True
+2027-04-04 00:00:00,Levante,Vallecano,True
+2027-04-04 00:00:00,Getafe,Espanol,True
+2027-04-04 00:00:00,Elche,Alaves,True
+2027-04-04 00:00:00,La Coruna,Villarreal,True
+2027-04-04 00:00:00,Betis,Celta,True
+2027-04-04 00:00:00,Ath Bilbao,Santander,True
+2027-04-04 00:00:00,Barcelona,Sevilla,True
+2027-04-11 00:00:00,Vallecano,Sociedad,True
+2027-04-11 00:00:00,Villarreal,Ath Bilbao,True
+2027-04-11 00:00:00,Valencia,Getafe,True
+2027-04-11 00:00:00,Sevilla,La Coruna,True
+2027-04-11 00:00:00,Santander,Barcelona,True
+2027-04-11 00:00:00,Alaves,Betis,True
+2027-04-11 00:00:00,Espanol,Malaga,True
+2027-04-11 00:00:00,Celta,Elche,True
+2027-04-11 00:00:00,Ath Madrid,Levante,True
+2027-04-11 00:00:00,Osasuna,Real Madrid,True
+2027-04-18 00:00:00,Getafe,Real Madrid,True
+2027-04-18 00:00:00,Sociedad,Santander,True
+2027-04-18 00:00:00,Malaga,Valencia,True
+2027-04-18 00:00:00,Levante,Villarreal,True
+2027-04-18 00:00:00,Barcelona,Espanol,True
+2027-04-18 00:00:00,Alaves,Vallecano,True
+2027-04-18 00:00:00,La Coruna,Celta,True
+2027-04-18 00:00:00,Betis,Ath Bilbao,True
+2027-04-18 00:00:00,Ath Madrid,Sevilla,True
+2027-04-18 00:00:00,Elche,Osasuna,True
+2027-04-21 00:00:00,Villarreal,Ath Madrid,True
+2027-04-21 00:00:00,Valencia,Vallecano,True
+2027-04-21 00:00:00,Sevilla,Levante,True
+2027-04-21 00:00:00,Real Madrid,Elche,True
+2027-04-21 00:00:00,Santander,Malaga,True
+2027-04-21 00:00:00,Getafe,Betis,True
+2027-04-21 00:00:00,Espanol,Sociedad,True
+2027-04-21 00:00:00,Celta,Barcelona,True
+2027-04-21 00:00:00,Ath Bilbao,La Coruna,True
+2027-04-21 00:00:00,Osasuna,Alaves,True
+2027-05-02 00:00:00,Levante,Real Madrid,True
+2027-05-02 00:00:00,Vallecano,Villarreal,True
+2027-05-02 00:00:00,Malaga,Getafe,True
+2027-05-02 00:00:00,Sociedad,Ath Bilbao,True
+2027-05-02 00:00:00,Barcelona,Osasuna,True
+2027-05-02 00:00:00,Celta,Sevilla,True
+2027-05-02 00:00:00,La Coruna,Santander,True
+2027-05-02 00:00:00,Betis,Valencia,True
+2027-05-02 00:00:00,Ath Madrid,Alaves,True
+2027-05-02 00:00:00,Elche,Espanol,True
+2027-05-09 00:00:00,Villarreal,Celta,True
+2027-05-09 00:00:00,Valencia,Ath Madrid,True
+2027-05-09 00:00:00,Real Madrid,Barcelona,True
+2027-05-09 00:00:00,Vallecano,La Coruna,True
+2027-05-09 00:00:00,Santander,Sevilla,True
+2027-05-09 00:00:00,Osasuna,Sociedad,True
+2027-05-09 00:00:00,Getafe,Elche,True
+2027-05-09 00:00:00,Betis,Espanol,True
+2027-05-09 00:00:00,Ath Bilbao,Malaga,True
+2027-05-09 00:00:00,Alaves,Levante,True
+2027-05-16 00:00:00,Sociedad,Barcelona,True
+2027-05-16 00:00:00,Sevilla,Villarreal,True
+2027-05-16 00:00:00,Osasuna,Betis,True
+2027-05-16 00:00:00,Malaga,Celta,True
+2027-05-16 00:00:00,Real Madrid,Santander,True
+2027-05-16 00:00:00,Espanol,Valencia,True
+2027-05-16 00:00:00,Elche,Ath Bilbao,True
+2027-05-16 00:00:00,La Coruna,Alaves,True
+2027-05-16 00:00:00,Ath Madrid,Vallecano,True
+2027-05-16 00:00:00,Levante,Getafe,True
+2027-05-23 00:00:00,Villarreal,Osasuna,True
+2027-05-23 00:00:00,Valencia,Elche,True
+2027-05-23 00:00:00,Vallecano,Betis,True
+2027-05-23 00:00:00,Santander,Levante,True
+2027-05-23 00:00:00,Sevilla,Getafe,True
+2027-05-23 00:00:00,La Coruna,Espanol,True
+2027-05-23 00:00:00,Celta,Sociedad,True
+2027-05-23 00:00:00,Ath Madrid,Ath Bilbao,True
+2027-05-23 00:00:00,Alaves,Real Madrid,True
+2027-05-23 00:00:00,Barcelona,Malaga,True
+2027-05-30 00:00:00,Real Madrid,La Coruna,True
+2027-05-30 00:00:00,Ath Bilbao,Vallecano,True
+2027-05-30 00:00:00,Betis,Ath Madrid,True
+2027-05-30 00:00:00,Elche,Santander,True
+2027-05-30 00:00:00,Espanol,Alaves,True
+2027-05-30 00:00:00,Getafe,Barcelona,True
+2027-05-30 00:00:00,Levante,Celta,True
+2027-05-30 00:00:00,Malaga,Sevilla,True
+2027-05-30 00:00:00,Osasuna,Valencia,True
+2027-05-30 00:00:00,Sociedad,Villarreal,True

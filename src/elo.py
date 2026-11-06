@@ -12,16 +12,26 @@ def expected(r_home, r_away, home_adv):
     return 1 / (1 + 10 ** (-(r_home + home_adv - r_away) / 400))
 
 
-def add_elo(df: pd.DataFrame, k=K, home_adv=HOME_ADV, regress=REGRESS) -> pd.DataFrame:
+def add_elo(df: pd.DataFrame, k=K, home_adv=HOME_ADV, regress=REGRESS,
+            return_ratings=False, reset_absent=False):
     df = df.sort_values("Date").reset_index(drop=True).copy()
     ratings = {}
     last_season = None
+    teams_cur = set()          # equipos que han jugado la temporada en curso
     elo_h, elo_a = [], []
 
     for row in df.itertuples():
         if row.Season != last_season and last_season is not None:
             ratings = {t: INIT + (1 - regress) * (r - INIT) for t, r in ratings.items()}
+            if reset_absent:
+                # equipos que no jugaron la temporada que acaba de terminar
+                for t in ratings:
+                    if t not in teams_cur:
+                        ratings[t] = INIT
+            teams_cur = set()
         last_season = row.Season
+        teams_cur.add(row.HomeTeam)
+        teams_cur.add(row.AwayTeam)
 
         rh = ratings.get(row.HomeTeam, INIT)
         ra = ratings.get(row.AwayTeam, INIT)
@@ -36,4 +46,6 @@ def add_elo(df: pd.DataFrame, k=K, home_adv=HOME_ADV, regress=REGRESS) -> pd.Dat
     df["elo_home"] = elo_h
     df["elo_away"] = elo_a
     df["elo_diff"] = df["elo_home"] - df["elo_away"]
+    if return_ratings:
+        return df, ratings
     return df
