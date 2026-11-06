@@ -68,7 +68,7 @@ tabla = sim.rename(columns={
     "P_top4": "Top 4", "P_top6": "Top 6", "P_descenso": "Descenso"})
 st.dataframe(
     tabla.style.format({"Campeón": "{:.1%}", "Top 4": "{:.1%}", "Top 6": "{:.1%}",
-                        "Descenso": "{:.1%}", "Pts esperados": "{:.1f}",
+                        "Descenso": "{:.1%}", "Pts esperados": "{:.1f}","Pts actuales": "{:.0f}",
                         "Posición media": "{:.1f}"}),
     use_container_width=True)
 
