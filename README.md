@@ -90,10 +90,15 @@ fuerza de los equipos empeora el Brier, así que no se aplica.
 ```bash
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
+
 python src/download_data.py   # descarga los CSV a data/raw
 python src/clean_data.py      # genera data/processed/laliga_matches.csv
-# calendario: descargar a mano de fixturedownload.com -> data/raw/fixtures_2627.csv
-# y generar pending_2627.csv con notebooks/06_fixtures.ipynb
+
+# Calendario (descarga manual, el sitio no permite acceso automático):
+#   https://fixturedownload.com/sport/football -> La Liga 2026/27 -> CSV
+#   guardar como data/raw/fixtures_2627.csv
+python src/make_pending.py    # partidos pendientes
+
 python src/predict.py
 python src/simulate.py
 streamlit run app.py
