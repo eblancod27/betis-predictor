@@ -1,35 +1,12 @@
 import numpy as np
 import pandas as pd
-from sklearn.linear_model import LogisticRegression
 
-from elo import add_elo
-from dixon_coles import fit_dc, predict_probs
+from ensemble import ensemble_probs
 
-K, HOME_ADV, REGRESS = 20, 60, 0.0
-XI, RIDGE = 0.001, 1.0
 CORTE = 110                       # partidos jugados al corte (11 jornadas)
 SEASONS = ["2122", "2223", "2324", "2425", "2526"]
 SIGMAS = [0.0, 0.1, 0.2, 0.3, 0.4]
 N_SIM = 4000
-
-
-def ensemble_probs(train, pend):
-    """Ensamble 50/50 Elo + Dixon-Coles, usando SOLO partidos de train."""
-    train = train.copy()
-    train["y"] = train["FTR"].map({"H": 0, "D": 1, "A": 2})
-    d, ratings = add_elo(train, k=K, home_adv=HOME_ADV, regress=REGRESS,
-                         return_ratings=True, reset_absent=True)
-    lr = LogisticRegression(max_iter=1000).fit(d[["elo_diff"]], d["y"])
-    diff = (pend["HomeTeam"].map(lambda t: ratings.get(t, 1500.0))
-            - pend["AwayTeam"].map(lambda t: ratings.get(t, 1500.0)))
-    P_elo = lr.predict_proba(diff.to_frame("elo_diff"))
-
-    ref = train["Date"].max() + pd.Timedelta(days=1)
-    m = fit_dc(train, ref, XI, RIDGE)
-    P_dc = np.array([predict_probs(m, h, a)
-                     for h, a in zip(pend["HomeTeam"], pend["AwayTeam"])])
-    return (P_elo + P_dc) / 2
-
 
 def tabla(matches, idx, n):
     pts, gf, ga = np.zeros(n), np.zeros(n), np.zeros(n)
@@ -90,7 +67,7 @@ def main():
         idx = {t: i for i, t in enumerate(teams)}
         n = len(teams)
 
-        P = ensemble_probs(train, pend)
+        P = ensemble_probs(train, pend)[2]
         pts0, _, _ = tabla(played, idx, n)
         pts_f, gf, ga = tabla(sd, idx, n)
         order = np.lexsort((-gf, -(gf - ga), -pts_f))   # puntos, dif. goles, goles a favor
